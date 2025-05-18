@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ALX Listing App
 
-## Getting Started
+A modern Airbnb-style listing application designed for showcasing rental properties. Built with a clean and scalable architecture, this project aims to replicate the core functionality of a typical Airbnb listing page, with a focus on modularity, performance, and developer experience.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Project Overview
+
+The **ALX Listing App** is a front-end web application that displays a curated list of property listings. It emphasizes reusable components, type safety, and consistent design patterns. Users can browse property cards, view images, and explore key listing details—all through a sleek, responsive UI.
+
+---
+
+## 📂 Project Structure
+
+The project follows a structured architecture for maintainability and scalability:
+
+```
+root/
+├── components/     # Reusable React components (e.g., Card, Navbar, Footer)
+├── interfaces/     # TypeScript interfaces for consistent data modeling
+├── constants/      # Static values like categories, filters, or app settings
+├── public/
+│   └── assets/     # Static images, icons, and other public assets
+├── pages/          # Application routes (e.g., home, listings, about)
+├── styles/         # Global CSS or Tailwind configuration files
+├── README.md       # Project documentation
+└── ...
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To run the project locally, follow these steps:
 
-## Learn More
+1. **Clone the Repository**
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone https://github.com/352a/alx-listing-app.git
+   cd alx-listing-app
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Install Dependencies**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   npm install
+   ```
 
-## Deploy on Vercel
+3. **Run the Development Server**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm run dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. **Open in Browser**
+   Visit `http://localhost:3000` to view the application.
+
+---
+
+## 📦 Tech Stack
+
+- **Next.js**
+- **TypeScript**
+- **Tailwind CSS**
+- **ESLint & Prettier** for linting and formatting
